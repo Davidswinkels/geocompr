@@ -934,7 +934,7 @@ The warning message informs us that the `st_set_crs()` function do not transform
 knitr::include_graphics("figures/02_vector_crs.png")
 ```
 
-The `projection()` function can be use to access a CRS information from the `Raster*` object: 
+The `projection()` function can be used to access a CRS information from the `Raster*` object: 
 
 ```{r}
 projection(new_raster)
